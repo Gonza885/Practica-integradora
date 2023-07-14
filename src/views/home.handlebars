@@ -1,0 +1,16 @@
+
+<div class="home-container">
+  <h1 class="home-title">Products</h1>
+  <ul class="home-list">
+    {{#each products}}
+      <li class="home-item">{{this.title}}</li>
+      <li class="home-item">{{this.description}}</li>
+      <li class="home-item">Code: {{this.code}}</li>
+      <li class="home-item">Price: {{this.price}}</li>
+      <li class="home-item">Status: {{this.status}}</li>
+      <li class="home-item">Stock: {{this.stock}}</li>
+      <li class="home-item">Category: {{this.category}}</li>
+      <img src="{{this.thumbnail[0].image1}}" alt="Product Image">
+    {{/each}}
+  </ul>
+</div>
