@@ -7,10 +7,8 @@
 		"price": 100,
 		"status": true,
 		"stock": 10,
-		"category": "Product",
-		"thumbnail": [
-			
-		]
+		"category": "Product"
+		
 	},
 	{
 		"id": 2,
@@ -20,10 +18,8 @@
 		"price": 200,
 		"status": true,
 		"stock": 20,
-		"category": "Product",
-		"thumbnail": [
-			
-		]
+		"category": "Product"
+		
 	},
 	{
 		"id": 3,
@@ -33,10 +29,7 @@
 		"price": 300,
 		"status": true,
 		"stock": 30,
-		"category": "Product",
-		"thumbnail": [
-			
-		]
+		"category": "Product"
 	},
 	{
 		"id": 4,
@@ -46,10 +39,8 @@
 		"price": 400,
 		"status": true,
 		"stock": 40,
-		"category": "Product",
-		"thumbnail": [
-			
-		]
+		"category": "Product"
+		
 	},
 	{
 		"id": 5,
@@ -59,9 +50,8 @@
 		"price": 500,
 		"status": true,
 		"stock": 50,
-		"category": "Product",
-		"thumbnail": [
+		"category": "Product"
 			
-		]
+		
 	}
 ]

@@ -49,10 +49,10 @@ products.post("/", async (req, res) => {
 		const result = await productModel.create({
 			title,
 			description,
-			code,
+			code: code.replace(/\s/g, "").toLowerCase(),
 			price,
 			stock,
-			category,
+			category: category.toLowerCase(),
 		});
 
 		return res.status(200).json({ status: "success", payload: result });
@@ -87,10 +87,10 @@ products.put("/:id", async (req, res) => {
 		const newproduct = {
 			title,
 			description,
-			code,
+			code: code.replace(/\s/g, "").toLowerCase(),
 			price,
 			stock,
-			category,
+			category: category.toLowerCase(),
 		};
 		await productModel.updateOne({ _id: id }, newproduct);
 

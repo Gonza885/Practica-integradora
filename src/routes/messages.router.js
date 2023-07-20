@@ -3,7 +3,7 @@ import { messageModel } from "../dao/mongo/models/messages.model.js";
 
 const messages = Router();
 
-// Endpoint para crear una cookie:
+// Endpoint para ver todos los mensajes:
 messages.get("/", async (req, res) => {
 	try {
 		const result = await messageModel.find();
@@ -13,7 +13,7 @@ messages.get("/", async (req, res) => {
 	};
 });
 
-// Endpoint para obtener una cookie:
+// Endpoint para borrar un mensaje según ID:
 messages.delete("/:id", async (req, res) => {
 	try {
 		const { id } = req.params;

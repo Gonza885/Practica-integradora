@@ -1,19 +1,19 @@
 <div class="container">
+
   <div>
-    <h1 class="title-text">Chat</h1>
+	  <h1 class="title-text">Chat</h1>
   </div>
 
   <div class="chat-container">
-    <div id="messages"></div>
+    <p class="chat-message"></p>
   </div>
 
   <div class="input-container">
-    <input type="text" class="input-text" id="user-input" placeholder="Nombre de usuario">
-    <input type="text" class="input-text" id="message-input" placeholder="Escribe un mensaje">
-    <button type="button" id="send-button">Enviar</button>
+    <input type="text" class="input-text">
   </div>
+  
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="/socket.io/socket.io.js"></script>
-<script type="module" src="/js/scripts.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./socket.io/socket.io.js"></script>
+<script src="/js/chat.js"></script>
